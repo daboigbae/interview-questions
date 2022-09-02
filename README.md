@@ -1,7 +1,5 @@
 # React Native Interview Questions
 
-![](screenshot.png)
-
 ## Project Overview
 
 Here are some of the questions I've seen and have shared with the multiple people I've interviewed over the years. I will try my best to continue adding to this list every Friday. 
