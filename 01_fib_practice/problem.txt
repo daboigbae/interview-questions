@@ -1,0 +1,14 @@
+This week's challenge delves into the mathematically 
+beautiful realm of the Fibonacci sequence, but with an 
+interesting twist. 
+
+Your mission, should you choose to accept it, 
+involves writing a function in your preferred programming 
+language that prints the Fibonacci sequence up 
+to a specified number, n, but in reverse order.
+
+Remember, the Fibonacci sequence is a series where 
+each number is the sum of the two preceding ones,
+starting from 0 and 1. For instance: 0, 1, 1, 2, 3, 5, 8, 13, etc. 
+
+So, if you input n=5, your function should output: 5, 3, 2, 1, 1, 0.
