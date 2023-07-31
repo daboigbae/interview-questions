@@ -1,0 +1,13 @@
+For this task, we're venturing into the realm of string manipulation. 
+The challenge is to write a function that splits a string into chunks 
+of n characters, then reverses each chunk.
+
+The function should take two arguments: the string and an integer n. 
+If the final chunk is not of length n, it should still be reversed.
+
+For example, if the string is 'HelloWorld' and n is 3, the output 
+should be 'leHloWrdo'.
+
+This task may seem straightforward, but don't be deceived! It 
+requires a strong understanding of how strings work and 
+how to manipulate them efficiently.
