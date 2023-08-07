@@ -1,0 +1,20 @@
+Palindromes are words, phrases, or sequences that read the 
+same backward as forward, like "level" or "madam". But what 
+if we have a challenge where the objective is to find the 
+longest palindromic substring within a given string?
+
+Your task is to write a function that takes a single string 
+input and returns the longest contiguous palindromic substring 
+within it. If there are multiple palindromic 
+substrings of the same maximum length, return any one of them.
+
+Constraints:
+The input string's length will not exceed 1,000.
+The input string consists only of printable ASCII characters.
+
+Examples:
+Input: "babad"
+Output: "bab" (Note: "aba" is also a valid answer)
+
+Input: "cbbd"
+Output: "bb"
