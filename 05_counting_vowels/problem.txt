@@ -1,0 +1,14 @@
+Vowels are the heart of words in the English language. 
+Your challenge is to write a function that takes a string 
+as input and returns the total count for each vowel (a, e, i, o, u) 
+in that string. The string will consist of letters and punctuation, 
+and your task is to ignore anything that's not a vowel.
+
+Example:
+Input: "Hello, World!"
+Output: {e: 1, o: 2}
+
+Constraints:
+The input string will have at least 1 and at most 1,000 characters.
+The input string consists only of printable ASCII characters.
+Uppercase and lowercase vowels should be counted together.
