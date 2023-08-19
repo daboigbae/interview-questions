@@ -1,0 +1,41 @@
+The Concert Ticket Puzzle
+
+Let's imagine it's Friday evening, and your favorite 
+band is in town for a special concert tonight. You and 
+your friends have been eagerly waiting for this day, and 
+it's finally here! To make the evening more memorable, 
+you have decided to buy concert tickets for your entire 
+group of friends.
+
+The venue has an interesting seating arrangement – the first 
+row has 5 seats, the second row has 8 seats, the third row 
+has 11 seats, and so on, increasing by 3 seats in each row.
+
+You have a certain amount of money, and you want to know 
+how many rows you and your friends can sit in without running 
+out of money.
+
+Write a function concertSeats that will take two parameters:
+
+1. budget, the amount of money you have (in dollars)
+2. ticketPrice, the price of a single concert ticket (in dollars)
+
+The function should return the number of complete rows that you 
+can afford tickets for, for you and your friends.
+
+Example:
+- Input: concertSeats(100, 10)
+- Output: 2
+
+Explanation:
+In this example, the seating arrangement costs for rows would be:
+- 1st row: 5 * $10 = $50
+- 2nd row: 8 * $10 = $80
+- 3rd row: 11 * $10 = $110
+
+With a budget of $100, you can afford the first two rows, but not 
+the third one, so the function returns 2.
+
+Constraints:
+- The input budget and ticketPrice will be positive integers.
+- The budget will be at most 10,000, and ticketPrice will be at most 1,000.
