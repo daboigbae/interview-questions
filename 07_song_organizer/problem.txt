@@ -1,0 +1,26 @@
+Imagine you are creating a playlist organizer tool. 
+One of the features you'd like to add is the ability 
+to order a playlist based on the title's length and 
+then alphabetically if there are titles with the same length.
+
+Your task is to complete a function that:
+- Accepts an array of song titles (strings).
+- Orders them based on the length of the title, from shortest to longest.
+- If two or more titles have the same length, it should then order them alphabetically.
+- Returns the newly ordered array of song titles.
+
+Examples
+
+Input: ["Song", "Another Song", "Play", "A"]
+Output: ["A", "Play", "Song", "Another Song"]
+
+Input: ["A", "B", "CC", "BB", "AAA"]
+Output: ["A", "B", "BB", "CC", "AAA"]
+
+Input: ["Go", "Away", "At", "The", "Park"]
+Output: ["Go", "At", "The", "Away", "Park"]
+
+Constraints
+- The input array will contain between 1 and 1000 elements.
+- Each string will contain between 1 and 100 characters.
+- The input array will consist only of printable ASCII characters.
